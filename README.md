@@ -14,6 +14,12 @@
 # Demo
 https://fizzbuzz-game.herokuapp.com/
 
+# Playable via API
+- Playing with a number
+https://fizzbuzz-game.herokuapp.com/api/number/2
+- Playing with an array of numbers
+https://fizzbuzz-game.herokuapp.com/api/numbers/2,3,5,15,9,6
+
 # Author
 - Dinh Duc Thinh
 - Student at <b>Haaga Helia University</b>
