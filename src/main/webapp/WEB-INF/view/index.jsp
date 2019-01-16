@@ -20,21 +20,23 @@
 <body>
 <div class="container">
    <div class="row">
-       <div class="col-sm-4"><!-- NO CONTENT --></div>
-       <div class="col-sm-4">
-           <div class="well text-center">FIZZ BUZZ TESTING</div>
+       <div class="col-sm-3"><!-- NO CONTENT --></div>
+       <div class="col-sm-6" id="appDiv">
+           <div class="well text-center">FIZZ BUZZ GAME</div>
            <input type="text" class="form-control" id="inputNumber0" data="#errorNumber0" placeholder="Enter a testing number">
-           <div class="alert alert-warning" id="errorNumber0">Your entered is not a number, please try again!</div>
-           <div class="alert alert-success" id="resultNumber0"></div>
+           <div class="alert alert-warning" id="errorNumber0">Your entered is not a number or empty input, please try again!</div>
             <button type="button" class="btn btn-default" name="addBtn">
 		      <span class="glyphicon glyphicon-plus"></span> Add more number
 		    </button>
 		    <button type="button" class="btn btn-default" name="searchBtn">
 		      <span class="glyphicon glyphicon-search"></span> Get result
 		    </button>
+		     <button type="button" class="btn btn-default" name="resetBtn">
+		      <span class="glyphicon glyphicon-refresh"></span> Reset
+		    </button>
            <div class="alert alert-warning">Service is getting down, please try again later!</div>
        </div>
-       <div class="col-sm-4"><!-- NO CONTENT --></div>
+       <div class="col-sm-3"><!-- NO CONTENT --></div>
    </div><!-- row -->
 </div><!-- container -->
 <script type="text/javascript" src="js/index.js"></script>

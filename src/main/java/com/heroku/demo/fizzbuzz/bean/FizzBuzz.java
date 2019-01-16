@@ -1,17 +1,18 @@
 package com.heroku.demo.fizzbuzz.bean;
 
 public class FizzBuzz {
-    private String fizz, buzz;
+    private String fizz, buzz, fizzbuzz;
 
 	public FizzBuzz() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public FizzBuzz(String fizz, String buzz) {
+	public FizzBuzz(String fizz, String buzz, String fizzbuzz) {
 		super();
 		this.fizz = fizz;
 		this.buzz = buzz;
+		this.fizzbuzz = fizzbuzz;
 	}
 
 	public String getFizz() {
@@ -29,5 +30,15 @@ public class FizzBuzz {
 	public void setBuzz(String buzz) {
 		this.buzz = buzz;
 	}
+
+	public String getFizzbuzz() {
+		return fizzbuzz;
+	}
+
+	public void setFizzbuzz(String fizzbuzz) {
+		this.fizzbuzz = fizzbuzz;
+	}
+	
+	
     
 }

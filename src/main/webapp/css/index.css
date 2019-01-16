@@ -13,11 +13,11 @@
 }
 
 .alert.alert-success {
+	display: block;
 	background: #FFFFFF !important;
 	font-weight: bold !important;
 	border: none !important;
-	color: #28a745 !important;
-	display: none;
+	color: #000000 !important;
 }
 
 button.btn.btn-default {

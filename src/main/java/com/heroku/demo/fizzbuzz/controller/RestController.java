@@ -17,7 +17,7 @@ public class RestController {
 	private FizzBuzzService FizzBuzzServiceImpl;
 	
 	@CrossOrigin(origins = "http://localhost:8080/")
-	@GetMapping("/fizzbuzz")
+	@GetMapping("/api")
 	@ResponseBody
     public ResponseEntity<FizzBuzz> getFizzBuzzObj() {
 		return new ResponseEntity<FizzBuzz>(FizzBuzzServiceImpl.getFizzBuzzObj(), HttpStatus.OK);
