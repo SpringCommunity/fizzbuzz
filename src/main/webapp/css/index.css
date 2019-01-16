@@ -6,7 +6,7 @@
 }
 
 .alert.alert-warning {
-	display: none !important;
+	display: none;
 	background: #FFFFFF !important;
 	font-weight: bold !important;
 	border: none !important;
@@ -17,11 +17,11 @@
 	font-weight: bold !important;
 	border: none !important;
 	color: #28a745 !important;
-	margin-bottom: 2% !important;
+	display: none;
 }
 
 button.btn.btn-default {
-	margin-top: 5% !important;
+	margin-top: 2% !important;
 }
 
 input[type=text] {

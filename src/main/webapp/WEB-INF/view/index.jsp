@@ -22,9 +22,10 @@
    <div class="row">
        <div class="col-sm-4"><!-- NO CONTENT --></div>
        <div class="col-sm-4">
-           <div class="well">FIZZ BUZZ TESTING</div>
-           <input type="text" class="form-control" id="inputNumber0" data="inputNumber0" placeholder="Enter a new testing number">
+           <div class="well text-center">FIZZ BUZZ TESTING</div>
+           <input type="text" class="form-control" id="inputNumber0" data="#errorNumber0" placeholder="Enter a testing number">
            <div class="alert alert-warning" id="errorNumber0">Your entered is not a number, please try again!</div>
+           <div class="alert alert-success" id="resultNumber0"></div>
             <button type="button" class="btn btn-default" name="addBtn">
 		      <span class="glyphicon glyphicon-plus"></span> Add more number
 		    </button>
