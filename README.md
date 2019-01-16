@@ -12,7 +12,7 @@
 - created: Tue 15 Jan 2019
 
 # Demo
-https://hrmsystem.herokuapp.com
+https://fizzbuzz-game.herokuapp.com/
 
 # Author
 - Dinh Duc Thinh
