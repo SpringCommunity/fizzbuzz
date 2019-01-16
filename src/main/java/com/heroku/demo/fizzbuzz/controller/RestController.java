@@ -16,7 +16,7 @@ public class RestController {
 	@Autowired
 	private FizzBuzzService FizzBuzzServiceImpl;
 	
-	@CrossOrigin(origins = "http://localhost:8080/")
+	@CrossOrigin(origins = "https://fizzbuzz-game.herokuapp.com/")
 	@GetMapping("/api")
 	@ResponseBody
     public ResponseEntity<FizzBuzz> getFizzBuzzObj() {
