@@ -1,5 +1,5 @@
 .well {
-	margin-top: 5% !important;
+	margin-top: 10% !important;
 	font-weight: bold !important;
 	background: #abc549 !important;
 	color: #FFFFFF !important;
@@ -17,4 +17,13 @@
 	font-weight: bold !important;
 	border: none !important;
 	color: #28a745 !important;
+	margin-bottom: 2% !important;
+}
+
+button.btn.btn-default {
+	margin-top: 5% !important;
+}
+
+input[type=text] {
+	margin-bottom: 2% !important;
 }

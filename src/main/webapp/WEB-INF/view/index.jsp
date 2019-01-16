@@ -19,13 +19,18 @@
 </head>
 <body>
 <div class="container">
-   <div class="row text-center">
+   <div class="row">
        <div class="col-sm-4"><!-- NO CONTENT --></div>
        <div class="col-sm-4">
            <div class="well">FIZZ BUZZ TESTING</div>
-           <input type="text" class="form-control" id="inputNumbers" placeholder="Enter your testing numbers">
-           <div class="alert alert-success"></div>
-           <div class="alert alert-warning">Your entered is not a number, please try again!</div>
+           <input type="text" class="form-control" id="inputNumber0" data="inputNumber0" placeholder="Enter a new testing number">
+           <div class="alert alert-warning" id="errorNumber0">Your entered is not a number, please try again!</div>
+            <button type="button" class="btn btn-default" name="addBtn">
+		      <span class="glyphicon glyphicon-plus"></span> Add more number
+		    </button>
+		    <button type="button" class="btn btn-default" name="searchBtn">
+		      <span class="glyphicon glyphicon-search"></span> Get result
+		    </button>
            <div class="alert alert-warning">Service is getting down, please try again later!</div>
        </div>
        <div class="col-sm-4"><!-- NO CONTENT --></div>
